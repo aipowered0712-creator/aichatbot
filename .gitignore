@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.env
+faiss/
+online_models.json
+knowledge_base/**/*.pdf
+knowledge_base/**/*.docx
+knowledge_base/**/*.xlsx
+knowledge_base/**/*.xlsm
+knowledge_base/**/*.pptx
+knowledge_base/**/*.png
+knowledge_base/**/*.jpg
+knowledge_base/**/*.jpeg
+knowledge_base/**/*.bmp
+knowledge_base/**/*.webp
+knowledge_base/**/*.tif
+knowledge_base/**/*.tiff

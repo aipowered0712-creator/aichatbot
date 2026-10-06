@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="zh-HK">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="知匯 AI — Knowledge Hub" />
+  <title>知匯 AI · Knowledge Platform</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="favicon.svg" />
+  <meta http-equiv="Cache-Control" content="no-store" />
+  <link rel="stylesheet" href="styles.css?v=26" />
+</head>
+<body>
+  <svg class="svg-defs" aria-hidden="true">
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="m12 3-1.35 4.15a5 5 0 0 1-3.2 3.2L3.3 11.7l4.15 1.35a5 5 0 0 1 3.2 3.2L12 20.4l1.35-4.15a5 5 0 0 1 3.2-3.2l4.15-1.35-4.15-1.35a5 5 0 0 1-3.2-3.2L12 3Z"/><path d="m19 2-.35 1.08a2 2 0 0 1-1.27 1.27L16.3 4.7l1.08.35a2 2 0 0 1 1.27 1.27L19 7.4l.35-1.08a2 2 0 0 1 1.27-1.27l1.08-.35-1.08-.35a2 2 0 0 1-1.27-1.27L19 2Z"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2Z"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4Z"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></symbol>
+    <symbol id="i-file" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/><path d="M14 2v6h6M8 13h8M8 17h5"/></symbol>
+    <symbol id="i-settings" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .34 1.88l.06.06-2.83 2.83-.06-.06A1.7 1.7 0 0 0 15 19.4a1.7 1.7 0 0 0-1 .6 1.7 1.7 0 0 0-.4 1.1V21h-4v-.1A1.7 1.7 0 0 0 8.55 19.4a1.7 1.7 0 0 0-1.88.34l-.06.06-2.83-2.83.06-.06A1.7 1.7 0 0 0 4.2 15a1.7 1.7 0 0 0-.6-1 1.7 1.7 0 0 0-1.1-.4H2v-4h.5A1.7 1.7 0 0 0 4.2 8a1.7 1.7 0 0 0-.34-1.88l-.06-.06 2.83-2.83.06.06A1.7 1.7 0 0 0 8.55 3.6a1.7 1.7 0 0 0 1-.6A1.7 1.7 0 0 0 10 1.9V2h4v-.1A1.7 1.7 0 0 0 15 3.6a1.7 1.7 0 0 0 1.88-.34l.06-.06 2.83 2.83-.06.06A1.7 1.7 0 0 0 19.4 8c.12.4.36.75.7 1 .3.25.7.4 1.1.4h.8v4h-.8A1.7 1.7 0 0 0 19.4 15Z"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect width="13" height="13" x="9" y="9" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="m18 6-12 12M6 6l12 12"/></symbol>
+    <symbol id="i-cpu" viewBox="0 0 24 24"><rect x="5" y="5" width="14" height="14" rx="2"/><path d="M9 9h6v6H9zM9 1v4M15 1v4M9 19v4M15 19v4M19 9h4M19 14h4M1 9h4M1 14h4"/></symbol>
+    <symbol id="i-cloud" viewBox="0 0 24 24"><path d="M17.5 19H6a4 4 0 0 1-.4-7.98A6.5 6.5 0 0 1 18 9.5a4.75 4.75 0 0 1-.5 9.5Z"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></symbol>
+    <symbol id="i-upload" viewBox="0 0 24 24"><path d="M12 16V4M7 9l5-5 5 5M5 20h14"/></symbol>
+    <symbol id="i-trash" viewBox="0 0 24 24"><path d="M3 6h18M8 6V4h8v2M19 6l-1 15H6L5 6M10 11v6M14 11v6"/></symbol>
+  </svg>
+
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-logo-row">
+          <img class="brand-logo" src="hkpclogo.png" alt="HKPC" />
+          <button class="icon-btn close-nav" id="closeNav" aria-label="關閉選單"><svg><use href="#i-x" /></svg></button>
+        </div>
+        <div class="brand-title"><strong>知匯 AI</strong><span>Knowledge Hub</span></div>
+      </div>
+
+      <button class="new-chat" id="newChat"><svg><use href="#i-plus" /></svg> 新建對話</button>
+
+      <nav class="nav-list" aria-label="主導航">
+        <button class="nav-item active"><svg><use href="#i-chat" /></svg><span>知識問答</span></button>
+        <button class="nav-item" data-open-documents><svg><use href="#i-book" /></svg><span>知識庫</span><em id="navDocumentCount">0</em></button>
+      </nav>
+
+      <div class="history">
+        <div class="section-title">歷史對話 <button id="clearHistory">清除</button></div>
+        <div id="historyList"></div>
+      </div>
+
+      <div class="system-card">
+        <div class="system-head"><span class="status-dot demo" id="serviceDot"></span><strong id="serviceStatus">正在檢查服務</strong><button class="plain-icon" id="refreshStatus" aria-label="重新整理服務狀態"><svg><use href="#i-settings" /></svg></button></div>
+        <div class="model-name" id="activeModelName">Qwen3.8-27B</div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <button class="icon-btn menu-btn" id="openNav" aria-label="開啟選單"><svg><use href="#i-menu" /></svg></button>
+        <div class="top-actions">
+          <div class="model-control">
+            <button class="model-select" id="modelSelect" aria-expanded="false"><svg id="modelIcon"><use href="#i-cloud" /></svg><span id="modelLabel">HKPC GPU · Qwen3.8-27B</span><svg class="down"><use href="#i-chevron" /></svg></button>
+            <div class="model-menu" id="modelMenu" hidden>
+              <div class="model-menu-title">選擇推理模型 <small>雲端模型由 HKPC GPU Platform 提供</small></div>
+              <button class="selected" data-model="local">
+                <i class="model-option-icon local"><svg><use href="#i-cpu" /></svg></i>
+                <span><strong>本地模型</strong><small>Kimi-VL-A3B · 資料不離開本機</small></span><em id="localModelStatus">預設</em>
+              </button>
+              <button data-model="qwen">
+                <i class="model-option-icon online"><svg><use href="#i-cloud" /></svg></i>
+                <span><strong>Qwen3.8-27B</strong><small>HKPC GPU Platform · 雲端模型</small></span><em class="online-status">聯網</em>
+              </button>
+              <button data-model="deepseek">
+                <i class="model-option-icon online"><svg><use href="#i-cloud" /></svg></i>
+                <span><strong>DeepSeek-V4-Flash-W8A8-MTP</strong><small>HKPC GPU Platform · 雲端模型</small></span><em class="online-status">聯網</em>
+              </button>
+              <button data-model="minimax">
+                <i class="model-option-icon online"><svg><use href="#i-cloud" /></svg></i>
+                <span><strong>MiniMax-M3</strong><small>HKPC GPU Platform · 雲端模型</small></span><em class="online-status">聯網</em>
+              </button>
+              <button data-model="qwenmax">
+                <i class="model-option-icon online"><svg><use href="#i-cloud" /></svg></i>
+                <span><strong>Qwen3.8-Max-0902</strong><small>商用模型 · public/qwen3.8-max-0902</small></span><em class="online-status">聯網</em>
+              </button>
+              <p id="modelNotice"><svg><use href="#i-lock" /></svg> 本地模式下，檢索資料與問題均不會發送到雲端。</p>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="index-banner" id="indexBanner" hidden>
+        <div class="index-banner-track"><i id="indexBannerFill"></i></div>
+        <div class="index-banner-copy">
+          <strong id="indexBannerTitle">正在處理知識庫</strong>
+          <span id="indexBannerDetail">解析文檔並建立檢索索引，期間可繼續提問或切換模型</span>
+        </div>
+        <em id="indexBannerTime"></em>
+      </div>
+
+      <section class="conversation" id="conversation">
+        <div class="welcome" id="welcome">
+          <div class="hero-icon"><svg><use href="#i-spark" /></svg></div>
+          <h1>從你的資料中<span>找到準確答案</span></h1>
+          <div class="suggestions" id="suggestionList">
+            <button data-prompt="請根據目前知識庫，找出最相關的章節，說明一項關鍵參數應如何設定。保留原文的數值、單位和適用條件，並標明出處。文檔沒有寫明的，請直接說明無法確認。"><i class="s1">問</i><span><strong>文檔問答</strong>這項參數怎樣設定？</span><svg><use href="#i-chevron" /></svg></button>
+            <button data-prompt="請比較目前知識庫中兩個相關對象，在關鍵參數、適用條件和注意事項上有何差異。每項都標明出處。文檔沒有寫到的，不要說成相同或不同。"><i class="s2">比</i><span><strong>差異對比</strong>兩個對象有何不同？</span><svg><use href="#i-chevron" /></svg></button>
+            <button data-prompt="請把目前知識庫裡的表格或附錄整理成對照，保留原文的數值、單位和限制條件，並標明出處。"><i class="s3">提</i><span><strong>參數提取</strong>把表格整理成對照</span><svg><use href="#i-chevron" /></svg></button>
+            <button data-prompt="請總結目前知識庫中最相關章節的要點，包括適用範圍、關鍵步驟和注意事項，並標明出處。不要補充文檔沒有寫的內容。"><i class="s4">摘</i><span><strong>章節摘要</strong>總結這一章的要點</span><svg><use href="#i-chevron" /></svg></button>
+          </div>
+          <div class="quick-title"><span></span>也可以試試</div>
+          <div class="quick-chips" id="chipList">
+            <button data-prompt="請根據目前知識庫，列出一項關鍵條件的數值、單位和適用範圍，並標明出處。">查關鍵條件</button>
+            <button data-prompt="請根據目前知識庫，說明進行下一步之前是否需要先處理。若需要，寫出原文中的條件、限度和做法，並標明出處。">事前要先處理嗎</button>
+            <button data-prompt="請把目前知識庫附錄或對照表中的數據整理出來，保留原文數值和單位，並標明出處。">整理附錄對照</button>
+          </div>
+        </div>
+
+        <div class="chat-thread" id="chatThread" hidden></div>
+      </section>
+
+      <footer class="composer-wrap">
+        <form class="composer" id="composer">
+          <textarea id="promptInput" rows="1" placeholder="向知識庫提問，例如這項參數怎樣設定、兩個對象有何差異、附錄表格怎樣整理…" aria-label="輸入問題"></textarea>
+          <div class="composer-tools">
+            <div class="knowledge-control">
+              <button type="button" class="knowledge-toggle active" id="knowledgeToggle" aria-expanded="false"><svg><use href="#i-book" /></svg><span class="scope-label">全部知識空間</span><span class="retrieval-state" id="retrievalState">檢查中</span><svg class="scope-arrow"><use href="#i-chevron" /></svg></button>
+              <div class="scope-menu" id="scopeMenu" hidden>
+                <button class="selected" data-scope="全部知識空間"><span>全部文檔</span><small>檢索所有知識庫</small></button>
+                <button data-scope="不使用知識庫"><span>不使用知識庫</span><small>僅使用模型回答</small></button>
+              </div>
+            </div>
+            <div class="input-tip"><kbd>Enter</kbd> 發送 · <kbd>Shift Enter</kbd> 換行</div>
+            <button type="submit" class="send-btn" id="sendBtn" aria-label="發送"><svg><use href="#i-send" /></svg></button>
+          </div>
+        </form>
+        <p class="disclaimer" id="modelDisclaimer">目前選擇 HKPC GPU Platform 雲端模型；回答由 AI 生成，請透過引用原文覆核重要資訊</p>
+        <p class="copyright">Copyright © 2026 Hong Kong Productivity Council (HKPC). All rights reserved.</p>
+      </footer>
+    </main>
+  </div>
+
+  <div class="overlay" id="overlay"></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <dialog class="source-dialog" id="sourceDialog">
+    <div class="dialog-head"><div><span>知識庫原文</span><strong id="sourceTitle">資料標題</strong></div><button id="closeSource" aria-label="關閉"><svg><use href="#i-x" /></svg></button></div>
+    <div class="source-meta" id="sourceMeta"></div>
+    <blockquote id="sourceExcerpt"></blockquote>
+    <p class="source-note">請結合原始文檔覆核重要資訊；頁碼按照文檔解析結果顯示。</p>
+  </dialog>
+  <dialog class="documents-dialog" id="documentsDialog">
+    <div class="dialog-head"><div><span>選擇類型後上傳或刪除</span><strong>知識庫</strong></div><button id="closeDocuments" aria-label="關閉"><svg><use href="#i-x" /></svg></button></div>
+    <div class="library-panel">
+      <div class="library-chips" id="libraryChips"></div>
+      <form class="library-create" id="createLibraryForm">
+        <input id="newLibraryName" maxlength="40" placeholder="新類型，例如金屬設計" aria-label="新知識庫名稱" />
+        <button type="submit">新增類型</button>
+      </form>
+    </div>
+    <form class="upload-zone" id="uploadForm">
+      <input type="file" id="documentInput" name="file" accept=".pdf,.docx,.txt,.md,.xlsx,.xlsm,.pptx,.png,.jpg,.jpeg,.bmp,.webp,.tif,.tiff" hidden />
+      <label for="documentInput"><svg><use href="#i-upload" /></svg><span><strong>選擇文檔上傳</strong><small>支援 PDF、Word、Excel、PowerPoint、圖片、TXT、Markdown</small></span></label>
+      <button type="submit" id="uploadButton" disabled>上傳並重建索引</button>
+    </form>
+    <div class="document-list-head"><strong id="documentListTitle">已載入文檔</strong><button id="refreshDocuments">重新整理</button></div>
+    <div class="document-list" id="documentList"><div class="empty-documents">正在讀取文檔…</div></div>
+    <p class="document-footnote">刪除類型或文檔前都會再確認。只重建所選類型的索引。</p>
+  </dialog>
+  <dialog class="dev-dialog" id="devDialog">
+    <div class="dialog-head"><div><span>Ctrl K</span><strong>開發者設定</strong></div><button id="closeDev" type="button" aria-label="關閉"><svg><use href="#i-x" /></svg></button></div>
+    <form class="dev-form" id="devForm">
+      <label>HKPC 共用 API Key<small id="devKeyHint">留空則不更改。模型沒有專用 Key 時使用。</small><input id="devApiKey" type="password" autocomplete="off" spellcheck="false" /></label>
+      <label>HKPC 共用位址<small>HKPC 模型留空自己的 URL 時，都走這個位址。</small><input id="devBaseUrl" type="url" required spellcheck="false" /></label>
+      <label>HKPC_VECTOR_BACKEND<small>online、hkpc、cloud 使用線上向量；local、cpu、gpu 使用本機。留空則不更改。</small><input id="devVectorBackend" spellcheck="false" placeholder="online" /></label>
+      <label>HKPC_EMBEDDING_MODEL<small>留空則不更改。更改後會重建索引。</small><input id="devEmbeddingModel" spellcheck="false" placeholder="public/qwen3-embedding-0.6b" /></label>
+      <label>HKPC_RERANKER_MODEL<small>留空則不更改。只影響提問時的重排。</small><input id="devRerankerModel" spellcheck="false" placeholder="public/qwen3-reranker-8b" /></label>
+      <div class="dev-rag">
+        <label>切片長度 chunk_size<small>預設 800，範圍 200–4000。與目前索引不同時，儲存或下一次提問會重建索引。</small><input id="devChunkSize" type="number" min="200" max="4000" step="20" value="800" /><input id="devChunkSizeRange" type="range" min="200" max="4000" step="20" value="800" /></label>
+        <label>切片重疊 chunk_overlap<small>預設 120，不可超過切片長度的一半。</small><input id="devChunkOverlap" type="number" min="0" max="2000" step="10" value="120" /><input id="devChunkOverlapRange" type="range" min="0" max="2000" step="10" value="120" /></label>
+        <label>召回數量 top_k<small>預設 4，範圍 1–20。下一次提問立即生效，不會重建索引。</small><input id="devTopK" type="number" min="1" max="20" step="1" value="4" /><input id="devTopKRange" type="range" min="1" max="20" step="1" value="4" /></label>
+      </div>
+      <label>自訂 System Prompt<small>留空則使用系統預設。若沒有 {context} 或 {question}，送出時會自動補上。</small><textarea id="devCustomPrompt" rows="5" maxlength="8000" spellcheck="false" placeholder="留空使用系統預設提示詞"></textarea></label>
+      <label class="dev-toggle"><input id="devDebug" type="checkbox" /><span>開啟檢索除錯<small>在引用來源直接顯示每個片段的 Reranker 分數與完整原文</small></span></label>
+      <button type="submit">儲存設定</button>
+    </form>
+    <div class="dev-models-head"><strong>線上模型</strong><span>每個模型可另設 Key 和 URL</span></div>
+    <div class="dev-models" id="devModels"></div>
+    <form class="dev-model-form" id="devModelForm">
+      <input id="devModelLabel" maxlength="40" placeholder="顯示名稱" required />
+      <input id="devModelId" maxlength="120" placeholder="模型編號，例如 public/qwen3.8-max-0902" required spellcheck="false" />
+      <input id="devModelKey" type="password" maxlength="500" autocomplete="off" spellcheck="false" placeholder="此模型的 API Key" />
+      <input id="devModelUrl" type="url" maxlength="300" spellcheck="false" placeholder="此模型的 URL，留空則用 HKPC 共用位址" />
+      <input id="devModelOriginal" type="hidden" />
+      <div class="dev-model-actions"><button type="submit" id="devModelSubmit">新增模型</button><button type="button" id="devModelCancel" hidden>取消</button></div>
+    </form>
+    <p class="dev-note">HKPC 模型不用填 URL，會走上方的共用位址。其他模型可填自己的 URL 和 API Key。修改 Key 時留空表示不更改。金鑰只保存在本機，不會回傳到頁面。</p>
+  </dialog>
+  <script src="app.js?v=26"></script>
+</body>
+</html>

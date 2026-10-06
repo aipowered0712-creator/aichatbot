@@ -1,0 +1,24 @@
+{
+  "models": [
+    {
+      "id": "public/qwen3.8-27b",
+      "label": "Qwen3.8-27B",
+      "commercial": false
+    },
+    {
+      "id": "public/deepseek-v4-flash-w8a8-mtp",
+      "label": "DeepSeek-V4-Flash-W8A8-MTP",
+      "commercial": false
+    },
+    {
+      "id": "public/minimax-m3",
+      "label": "MiniMax-M3",
+      "commercial": false
+    },
+    {
+      "id": "public/qwen3.8-max-0902",
+      "label": "Qwen3.8-Max-0902",
+      "commercial": true
+    }
+  ]
+}

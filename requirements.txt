@@ -1,0 +1,20 @@
+fastapi
+uvicorn[standard]
+python-multipart
+# Windows GPU：python -m pip install torch --index-url https://download.pytorch.org/whl/cu126
+torch
+transformers
+accelerate
+bitsandbytes
+langchain-community
+langchain-text-splitters
+langchain-huggingface
+langchain-openai
+langchain-classic
+faiss-cpu
+pymupdf
+docx2txt
+sentence-transformers
+openpyxl
+python-pptx
+rapidocr-onnxruntime
